@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project M.</title>
+</head>
+<body>
+    <header class="topo">
+        <h1 class="intro">Amamos a Mamãe.</h1>
+        <p class="frase">Uma declaração de amor em forma de Site.</p>
+        <h2>
+            <img src="Assets/stichIco.png" alt="Minhoco">
+            <img src="Assets/reIco.png" alt="Papai">
+            <img src="Assets/mermaidIco.png" alt="Mamãe">
+            <img src="Assets/liloIco.png" alt="Lilo">
+        </h2>
+    </header>
+    <section class="depoimentos-corpo">
+        <div class="buttons">
+            <button type="button" data-button="stich" class="botao-on"><img class="rosto-buttons" src="Assets/MinhocoFace.jpg" alt="Cara"></button>
+            <button type="button" data-button="lilo" class="botao-off"><img class="rosto-buttons" src="Assets/LiloFace.jpg" alt="Cara"></button>
+            <button type="button" data-button="renan" class="botao-off"><img class="rosto-buttons" src="Assets/RenanFace.jpg" alt="Cara"></button>
+        </div>
+        <div class="depoimentos-texto">
+            <div class="ativa" data-depoimentos="stich">
+                <h2 class="big-title">Oi mãe! Tô com fome!</h2>
+                <p class="item-lista">Obrigado por me adotar, cuidar de mim e me dar bastante carinho e sachet.
+                Eu vou tentar cheirar menos o bumbum da Lilo e te deixar dormir.
+                Desculpa te arranhar, eu só queria brincar com vc.</p>
+                <h3 class="nome-lista">Te amo muito! Quase te amo mais do que amo comer!</h3>
+            </div>
+            <div class="hide" data-depoimentos="lilo">
+                <h2 class="big-title">Oi Humana, já limpou minha caixa de areia?</h2>
+                <p class="item-lista">Bom, não sou boa nessas coisas mas... Eu sei que quando eu não era essa gata incrível, e não sabia me cuidar tão bem, você fez de tudo por mim e é por isso que cresci assim, saudável e amada.
+                    Obrigado por me escolher como sua mestra, eu não aceitaria ninguém menos que você para me servir. As vezes até sinto falta do seu carinho compulsivo (só as vezes).</p>
+                <h3 class="nome-lista">Agora aumente minha dose de petisco. Te amo mãe!</h3>
+            </div>
+            <div class="hide" data-depoimentos="renan">
+                <h2 class="big-title">Oi amor! #MeOuveMari</h2>
+                <p class="item-lista">Não poderia deixar de usar os poucos talentos que adquiri para te agradecer por me apoiar tanto, mesmo sendo uma fase conturbada pra nós dois.
+                    De todos os desafios pra fazer esse site, o mais difícil foi aprender a falar gatez pra pegar os depoimentos das crianças. </p>
+                <h3 class="nome-lista">Que sejamos felizes, também profissionalmente! Te amo!</h3>
+            </div>
+        </div>
+        
+    </section>
+    <footer id="rodape">
+        <a class="pages" href="index.html">Home</a>
+        <a class="pages" href="Depoimentos.html">Depoimentos</a>
+        <a class="pages" href="HoIsMari.html">WhoIsMari</a>
+        <a class="pages" href="Creditos.html">Créditos</a>
+    </footer>
+    <script src="JS/index.js"></script>
+    
+</body>
+</html>
