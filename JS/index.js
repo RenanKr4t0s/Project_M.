@@ -5,9 +5,10 @@ const botaoRenan = document.querySelector('[data-button="renan"');
 //console.log(depoimentos);
 
 function alertMari(){
-    alert("Montei esse site pois acho que é muito difícil pra você...");
+    alert("Montei esse site pois acho que é muito difícil pra Mari...");
     alert("...");
-    alert("Ser LINDA desse jeito! Hehehehe. Te amo!!!");
+    alert("Ser LINDA desse jeito! Hehehehe.");
+    alert("AVISO: Essa foi uma piada interna!!!");
 }
 //até aqui eu sei que tá tudo funcionando
 //minuto 7:55 do video (criando arrow functions simplificadas)(https://cursos.alura.com.br/extra/alura-mais/data-attributes-do-html5-c109).

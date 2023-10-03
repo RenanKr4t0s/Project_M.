@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
 *{
-    margin: 0.5rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -23,16 +23,20 @@
     background-color: var(--color-base2);
     font-family: var(--font-two);
     color: var(--color-base);
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
     text-justify: auto;
 }
 .topo .intro{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .topo .frase{
     font-size: 2rem;
-    margin-top:1.5rem;
+    margin-top:1rem;
     color: var(--color-text);
+}
+.icone{
+    height: 2.4rem;
 }
 .corpo{display: flex;
     flex-direction: row;
@@ -40,41 +44,52 @@
     /* gap: 1rem; */
     padding: 1rem;
 }
-.depoimentos-corpo{display: flex;
+.depoimentos-corpo{
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* gap: 1rem; */
-    padding: 5rem;
+    gap: 1rem;
+    padding: 3rem;
 }
 .corpo .card1 {
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
-  padding: 2rem;
-  margin: 1rem;
-  width: 60rem;
+  padding: 1rem;
+  /* margin: 1rem; */
+  width: 40em;
+  height: 24em;
   transition: all 0.3s ease-out;
 }
 .corpo .card__imagem {
     border-radius: 0.5rem;
     box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
-    padding: 2rem;
-    margin: 1rem;
-    width: 60rem;
-    height: 50rem;
+    padding: 1rem;
+    /* margin: 1rem; */
+    width: 30rem;
+    height: 24rem;
     transition: all 0.3s ease-out;
 }
   .corpo .card__imagem__mari {
     border-radius: 0.5rem;
     box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
     padding: 2rem;
-    margin: 1rem;
-    width: 45rem;
-    height: 55rem;
+    /* margin: 1rem; */
+    width: 17rem;
+    height: 22rem;
+    transition: all 0.3s ease-out;
+}
+.card__mari {
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
+    padding: 2rem;
+    /* margin: 1rem; */
+    width: 50rem;
+    height: 22rem;
     transition: all 0.3s ease-out;
 }
 .big-title{
     font-family: var(--font-one);
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
     text-decoration: underline;
@@ -82,23 +97,24 @@
 .nome-lista{
     list-style: disc inside url('Assets/catIco.png');
     font-family: var(--font-one);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 400;
     padding: 0.5rem;
     text-align: justify;
 }
 .item-lista{
     font-family: var(--font-two);
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 100;
 }
 
 .buttons{
     display: flex;
     flex-direction: column;
-    size: 15rem;
-    width: 15rem;
-    padding: 0 10rem 0 5rem;
+    padding: 0 5rem 0 5rem;
+    height: 22em;
+    justify-content: space-between;
+    
 }
 .botao-off{
     border: none;
@@ -119,17 +135,42 @@
 }
 .rosto-buttons{   
     border-radius: 40%;
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
 }
 .rosto-buttons-on{
     border-radius: 40%;
-    width: 12rem;
-    height: 12rem;
+    width: 6rem;
+    height: 6rem;
 }
 .hide{
     display: none;
 }
+.ativa{
+    width: 65em;
+}
+
+.corpo .card__creditos {
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
+    padding: 1rem;
+    /* margin: 1rem; */
+    width: 25em;
+    height: 24em;
+    transition: all 0.3s ease-out;
+}
+
+.corpo .card__agradecimentos {
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.2rem 0.5rem 0px var(--color-base2);
+    padding: 1rem;
+    /* margin: 1rem; */
+    width: 45em;
+    height: 24em;
+    transition: all 0.3s ease-out;
+}
+
+  
 
 #rodape{
     display: flex;
@@ -148,7 +189,7 @@
     justify-content: center;
     gap: 1rem;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 1rem 0;
     text-decoration: none;
     color: var(--color-text);
