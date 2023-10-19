@@ -1,5 +1,5 @@
 # Project_M.
-Projeto 
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -15,6 +15,10 @@ Bem vindo ao __Project M.__ que desenvolvi do zero para homenagear minha Esposa 
 Esse é o primeiro projeto que posso chamar de meu.
 
 ## Tecnologias Utilizadas.
+<span class="material-symbols-outlined">
+computer
+</span>
+
 Aqui utilizei:
   - HTML
   - CSS
@@ -29,10 +33,18 @@ functions
 - Projeto pra medir minha criação sem nenhum tutorial.
 
 ## Desafios do projeto
+<span class="material-symbols-outlined">
+sports_score
+</span>
+
 - Criar a pagina sem a base de Design (um figma por exemplo) foi o mais complicado.
 - Criar os botões do JavaScript exigiu um pouco mais de atenção
 
 ## Desafios pro futuro
+<span class="material-symbols-outlined">
+flag
+</span>
+
 - Com certeza quero reestilizar tudo
 - Tornar o Site responsivo está nos meus planos
 - Acredito que aprendendo mais conceitos posso refatorar e melhorar as classes e data atributes
@@ -59,4 +71,8 @@ globe
 
 
 ## Obrigado por visitar!!
+<span class="material-symbols-outlined">
+sentiment_very_satisfied
+</span>
+
 Espero que você goste deste projeto! Se tiver alguma dúvida ou sugestão, ou quiser falar sobre programação, entre em contato comigo nos links acima, ficarei muito feliz em compartilhar e aaprender mais.
